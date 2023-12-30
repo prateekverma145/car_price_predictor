@@ -10,7 +10,7 @@ st.sidebar.markdown("<h4 style='text-align: left; color: Green;'>Made by Prateek
 st.sidebar.markdown("<h4 style='text-align: left; color: white;'>Github:<a href='https://github.com/prateekverma145'>prateekverma145</a></h4>", unsafe_allow_html=True)
 st.sidebar.markdown("<h4 style='text-align: left; color: white;'>LinkedIn:<a href='https://www.linkedin.com/in/prateek-verma-2a202b287'>prateek-verma</a></h4>", unsafe_allow_html=True)
 st.sidebar.markdown("<h4 style='text-align: left; color: white;'>Dataset:<a href='https://www.kaggle.com/datasets/hellbuoy/car-price-prediction'>prateekverma14</a></h4>", unsafe_allow_html=True)
-model=pickle.load(open('model.pkl','rb'))
+model=pickle.load(open('model.sav','rb'))
 # input parameters
 # drivewheel	wheelbase	carlength	carwidth	carheight	curbweight	enginesize	boreratio	horsepower	peakrpm	citympg	highwaympg
 st.subheader('Select the values to predict the price')
