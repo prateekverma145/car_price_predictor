@@ -12,7 +12,7 @@ Data Exploration: Check out the Jupyter Notebooks in the notebooks directory to 
 ![Alt text](./ss.png)
 
  ## Project Structure
-app.py: The main Python script for running the web application.
-model.pkl: Contains the machine learning model for car price prediction.
-notebooks/: Jupyter Notebooks used for data exploration and model development.
-data/: Dataset used for training and testing the model.
+- app.py: The main Python script for running the web application.
+-  model.pkl: Contains the machine learning model for car price prediction.
+-  notebooks/: Jupyter Notebooks used for data exploration and model development.
+-  data/: Dataset used for training and testing the model.
