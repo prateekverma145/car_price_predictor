@@ -11,6 +11,7 @@ Data Exploration: Check out the Jupyter Notebooks in the notebooks directory to 
 
 ![Alt text](./ss.png)
 
+link: https://carpricepredictor-abrqvmvltpzjqzmcl7c8pc.streamlit.app/
  ## Project Structure
 - app.py: The main Python script for running the web application.
 -  model.pkl: Contains the machine learning model for car price prediction.
